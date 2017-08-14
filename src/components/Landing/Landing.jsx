@@ -8,12 +8,12 @@ import {
 
 import InfoTile from './InfoTile';
 import tiles from './tiles';
-import Template, {Title} from 'features/Template';
+import {Title} from '../Template';
 
 export default class Landing extends Component {
     render() {
         return (
-            <Template>
+            <div>
               <Title />
               <section>
                 <Grid>
@@ -22,7 +22,7 @@ export default class Landing extends Component {
                   </Row>
                 </Grid>
               </section>
-            </Template>
+            </div>
         );
     }
 }

@@ -1,10 +1,11 @@
-import androidDevText from 'content/info/android-dev.md';
-import transText from 'content/info/social-trans.md';
-import fullstackText from 'content/info/fullstack-dev.md';
+// eslint-disable-next-line
+import androidDevText from '../../content/info/android-dev.md';
+import transText from '../../content/info/social-trans.md';
+import fullstackText from '../../content/info/fullstack-dev.md';
 
-import ale from 'images/ale.jpg';
-import ale2 from 'images/ale2.jpg';
-import ale3 from 'images/ale3.jpg';
+import ale from '../../img/ale.jpg';
+import ale2 from '../../img/ale2.jpg';
+import ale3 from '../../img/ale3.jpg';
 
 export default [
   {

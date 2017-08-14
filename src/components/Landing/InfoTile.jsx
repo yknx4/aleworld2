@@ -1,5 +1,6 @@
-import React,{Component, PropTypes} from 'react';
-import {ImageTile} from 'components/layout';
+import React,{Component} from 'react';
+import PropTypes from "react-proptypes";
+import {ImageTile} from '../layout';
 import ReactMarkdown from 'react-markdown';
 
 export default class InfoTile extends Component {

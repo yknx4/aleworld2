@@ -1,15 +1,16 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
 import "./App.css";
+import { Route } from "react-router";
 import { BrowserRouter } from "react-router-dom";
 import Template from "./components/Template";
+import Landing from "./components/Landing"
 
 class App extends Component {
   render() {
     return (
       <BrowserRouter>
         <Template>
-         <h1> Placeholder </h1> 
+        <Route path="/" component={Landing}/>
         </Template>
       </BrowserRouter>
     );
