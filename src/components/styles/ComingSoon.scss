@@ -1,0 +1,49 @@
+// @import 'bootstrap'
+// @import 'styles/colors.scsst';
+// .comingsoon {
+//   padding: 1em;
+//   .logo {
+//     margin: auto;
+//     width: 10vmax;
+//     height: 10vmax;
+//     background-image: url("../../images/aleworld-logo.png");
+//     background-size: contain;
+//     background-repeat: no-repeat;
+//     background-position: center;
+//   }
+//   .header {
+//     small {
+//       display: block;
+//       color: $secondary-text-color;
+//     }
+//   }
+//   h1 {
+//     font-size: 6vw;
+//     font-style: normal;
+//     color: $header-text-color !important;
+//     .right {
+//       all: inherit;
+//       display: inline;
+//       color: $primary-color-dark !important;
+//     }
+//   }
+//   .crypto {
+//     padding-top: 1em;
+//     width: auto;
+//     margin: auto;
+//     display: block;
+//     .shield {
+//       margin-left: .5vw;
+//       margin-right: .5vw;
+//     }
+//   }
+// }
+
+// @media (min-width: $screen-lg-min) {
+//   .comingsoon {
+//     h1 {
+//       font-size: 66px;
+//     }
+//   }
+
+// }

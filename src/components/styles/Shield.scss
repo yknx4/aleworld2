@@ -1,0 +1,102 @@
+@import 'bootstrap/less/mixins.less';
+@import 'bootstrap/less/variables.less';
+@import 'styles/colors.scss';
+@import 'styles/custom.scss';
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,200');
+
+$shield-font-size: 3vw;
+$shield-font-size-em: 1em;
+$shield-padding: .3em;
+$height-1: 6em;
+
+$shield-border-radius: .1em;
+
+$sm-font-size: 2.2vw;
+$md-font-size: 1.2vw;
+$lg-font-size: 16px;
+
+.shield {
+  display:inline-block;
+  table-layout: fixed;
+
+  ._shield {
+    @include box-sizing(content-box);
+    overflow: auto;
+    border: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgba(255,255,255,1);
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    display: table-cell;
+    width: auto;
+    font-size: $shield-font-size;
+    line-height: $shield-font-size-em;
+    padding-top: $shield-padding;
+    padding-bottom: $shield-padding;
+    font-weight: 400;
+  }
+
+  .shield-left {
+    @extend ._shield;
+    @include border-left-radius($shield-border-radius);
+    background: $material-gray-800;
+    text-align: right;
+    padding-right: $shield-padding;
+    padding-left: $shield-padding;
+    i {
+      display: inherit;
+      font-size: inherit;
+      speak: inherit;
+      text-transform: inherit;
+      line-height: inherit;
+    }
+    span {
+      display: none;
+      font-size: inherit;
+      speak: inherit;
+      text-transform: inherit;
+      line-height: inherit;
+    }
+  }
+
+  .shield-left:hover {
+    i {
+      display: none;
+    }
+    span {
+      display: inherit;
+    }
+  }
+
+  .shield-right {
+    @extend ._shield;
+    @include border-right-radius($shield-border-radius);
+    background: $primary-color-dark;
+    text-align: left;
+    padding-right: $shield-padding;
+    padding-left: $shield-padding;
+  }
+
+  @media (min-width: $screen-sm-min) {
+    ._shield {
+      font-size: $sm-font-size;
+    }
+  }
+
+  @media (min-width: $screen-md-min) {
+    ._shield {
+      font-size: $md-font-size;
+    }
+    .shield-right {
+      // @extend .thin;
+      // font-weight: 200;
+    }
+  }
+
+  @media (min-width: $screen-lg-min) {
+    ._shield {
+      font-size: $lg-font-size;
+    }
+  }
+
+}
