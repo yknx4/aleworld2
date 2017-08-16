@@ -24987,6 +24987,9 @@ footer.bg-dark a {
 h1 h2 h3 h4 h5 {
   font-family: 'texgyreadventorbold', sans-serif !important;
 }
+.main-title {
+  line-height: 5rem;
+}
 a:link {
   color: #ff6666;
 }

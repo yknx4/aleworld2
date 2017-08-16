@@ -1,9 +1,8 @@
-// eslint-disable-next-line
-import androidDevText from '../../content/info/android-dev.md';
-import transText from '../../content/info/social-trans.md';
-import fullstackText from '../../content/info/fullstack-dev.md';
+import androidDevText from '../../content/info/android-dev';
+import transText from '../../content/info/social-trans';
+import fullstackText from '../../content/info/fullstack-dev';
 
-import ale from '../../img/ale.jpg';
+import ale from '../../img/ale1.jpg';
 import ale2 from '../../img/ale2.jpg';
 import ale3 from '../../img/ale3.jpg';
 
