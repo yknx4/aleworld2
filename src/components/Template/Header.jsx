@@ -26,13 +26,13 @@ export default class Header extends Component {
           <Module className="left">
             <Menu>
               <li>
-                <Link to="/beta">Home</Link>
+                <Link to="/">Home</Link>
               </li>
               <Dropdown>
                 <a href="//yknx4.github.io/blog">Blog</a>
                 <MegaMenu>
                   <li>
-                    <a href="//yknx4.github.io/blog">Blog</a>
+                    <Link to="/blog">Blog</Link>
                   </li>
                 </MegaMenu>
               </Dropdown>

@@ -10,7 +10,7 @@ class App extends Component {
     return (
       <BrowserRouter>
         <Template>
-        <Route path="/" component={Landing}/>
+        <Route exact path="/" component={Landing}/>
         </Template>
       </BrowserRouter>
     );
