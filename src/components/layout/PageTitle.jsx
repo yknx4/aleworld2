@@ -1,15 +1,4 @@
-import React, {PropTypes} from 'react';
-import LayoutElement from './LayoutElement';
+import Tag from './Tag';
 
-export default function PageTitle({className, children}) {
-  return(
-    <LayoutElement baseClass='page-title' tag='section' className={className}>
-      {children}
-    </LayoutElement>
-  );
-}
-
-PageTitle.propTypes = {
-  children: PropTypes.node.isRequired,
-  className: PropTypes.string,
-};
+const PageTitle = Tag('section', 'page-title');
+export default PageTitle;
