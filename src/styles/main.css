@@ -25009,6 +25009,9 @@ a:active {
   display: inline;
   max-height: 80%;
 }
+.main-title {
+  font-family: "texgyreadventorbold";
+}
 .nav-container a h5 {
   display: inline;
 }
@@ -25046,6 +25049,7 @@ a:active {
   color: #ff3333;
   font-family: 'texgyreadventorbold';
   font-size: 2.5rem;
+  line-height: 5rem;
   margin: auto;
   padding: 0;
 }
