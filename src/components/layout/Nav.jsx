@@ -1,4 +1,5 @@
-import React, {PropTypes} from 'react';
+import React from 'react';
+import PropTypes from 'react-proptypes';
 
 export default function Nav({children, className=''}) {
   return (
